@@ -5,5 +5,9 @@ class Bike
   def initialize(working = true)
     @working = working
   end
-  
+
+  def fix
+    working = true 
+  end
+
 end
