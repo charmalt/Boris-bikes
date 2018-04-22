@@ -1,6 +1,4 @@
 require 'van'
-require 'docking_station'
-require 'bike'
 
 describe Van, :van do
 let(:broken_bike) {double :broken_bike, working: false}

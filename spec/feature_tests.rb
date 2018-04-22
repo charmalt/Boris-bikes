@@ -1,6 +1,7 @@
 require './lib/docking_station.rb'
 require './lib/bike.rb'
 require './lib/van.rb'
+require './lib/garage.rb'
 
 def collecting_broken_bikes
   station = DockingStation.new
