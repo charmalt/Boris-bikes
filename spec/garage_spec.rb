@@ -24,7 +24,6 @@ describe Garage do
       garage.return_bikes
       expect(bike.working).to eq true
     end
-
   end
 
 end
